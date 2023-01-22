@@ -1,12 +1,12 @@
-import React from "react";
+import React from "react"
 import {
   AiFillGithub,
   AiFillInstagram,
   AiFillLinkedin,
   AiFillTwitterCircle,
-} from "react-icons/ai";
+} from "react-icons/ai"
 
-import { SocialIcons } from "../Header/HeaderStyles";
+import { SocialIcons } from "../Header/HeaderStyles"
 import {
   CompanyContainer,
   FooterWrapper,
@@ -17,7 +17,7 @@ import {
   Slogan,
   SocialContainer,
   SocialIconsContainer,
-} from "./FooterStyles";
+} from "./FooterStyles"
 
 const Footer = () => {
   return (
@@ -25,13 +25,13 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
+          <LinkItem href="tel:+91-7384-619-742">+91-7384-619-742</LinkItem>
           <LinkItem href="tel:+91-6297-668-173">+91-6297-668-173</LinkItem>
-          <LinkItem href="tel:+91-9733-338-497">+91-9733-388-497</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:muhammadroshan788@gmail.com">
-            muhammadroshan788@gmail.com
+            webwizards@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
@@ -55,7 +55,7 @@ const Footer = () => {
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
