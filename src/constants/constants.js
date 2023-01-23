@@ -1,25 +1,40 @@
 export const projects = [
   {
-    title: "A School App",
+    title: "Library Management System",
     description:
-      "This was a School App which we made where Students could Submit Online Leave, Get News of Current events, Data sheet and Syllabus",
-    image: "/images/project 1.png",
-    tags: ["Mongo", "Express", "React Native", "Node"],
-    source: "https://github.com/ibrahimfayyaz26/instant-Cloths-server",
-    visit: "https://play.google.com/store/apps/details?id=com.IM.GPSS",
+      "It's a system for School & Colleges to handle the renting books for students",
+    image: "/images/lms.png",
+    tags: ["Mongo", "Express", "React Js", "Node"],
+    visit: "https://lms.cyclic.app/home",
     id: 0,
   },
   {
-    title: "A site for Travel Agency",
+    title: "Get the popular Movies",
     description:
-      "This Is a Travel Agency site for a travel agency using react js ",
-    image: "/images/project2.png",
-    tags: ["React", "JavaScript"],
-    source: "https://github.com/roshan-ican/Jousha-Travels",
-    visit: "https://joshua-travels.netlify.app",
+      "A side project that we did to get Movies, their ratings, budget and casts.",
+    image: "/images/popularM.png",
+    tags: ["React", "JavaScript", ""],
+    visit: "https://getpopularmoviesmadebyroshan.netlify.app/",
     id: 1,
   },
-];
+  {
+    title: "Young Shutters of Sikkim",
+    description:
+      "YOUNG SHUTTLERS OF SIKKIM is an oldest badminton club of Sikkim established in 2001 by very few members. ",
+    image: "/images/yg.jpeg",
+    tags: ["PHP", "JavaScript", "Bootstrap"],
+    visit: "http://youngshuttlersofsikkim.com/",
+    id: 2,
+  },
+  {
+    title: "Flickoot",
+    description: "An AOT platform's landing page",
+    image: "/images/flickoot.png",
+    tags: ["Tailwindcss", "JavaScript"],
+    visit: "https://flickoot.netlify.app/",
+    id: 3,
+  },
+]
 
 export const TimeLineData = [
   {
@@ -34,5 +49,4 @@ export const TimeLineData = [
     year: "Third",
     text: "To deliver satisfactory results to our clients.",
   },
-
-];
+]
