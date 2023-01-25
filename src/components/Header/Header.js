@@ -12,6 +12,7 @@ import {
   NavLink,
   SocialIcons,
   Span,
+  LogoSize
 } from "./HeaderStyles"
 
 import { DiCssdeck } from "react-icons/di"
@@ -31,7 +32,7 @@ const Header = () => (
           }}
         >
           {/* <DiCssdeck size="5rem" /> */}
-          <img src="/" />
+          <img src="/iconwizard.png" />
           <Span>Web Wizards</Span>
         </a>
       </Link>
