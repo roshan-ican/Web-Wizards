@@ -1,3 +1,7 @@
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
+
 import { createGlobalStyle } from 'styled-components';
 import { normalize } from 'styled-normalize';
 

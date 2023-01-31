@@ -50,3 +50,31 @@ export const TimeLineData = [
     text: "To deliver satisfactory results to our clients.",
   },
 ]
+
+export const members = [
+  {
+    name: "Shekhar",
+    description:"HR / Marketing Lead",
+    image: "/images/shekhar.jpeg",
+    tags: ["Mongo", "Express", "React Js", "Node"],
+    gmail: "https://lms.cyclic.app/home",
+    id: 0,
+  },
+  
+  {
+    name: "Rohit",
+    description:"Software Engineer ",
+    image: "/images/rohit.jpeg",
+    tags: ["PHP", "JavaScript", "Bootstrap"],
+    gmail: "http://youngshuttlersofsikkim.com/",
+    id: 1,
+  },
+  {
+    name: "Roshan",
+    description: "Software Engineer",
+    image: "/images/roshan.jpeg",
+    tags: ["Tailwindcss", "JavaScript"],
+    gmail: "https://flickoot.netlify.app/",
+    id: 2,
+  },
+]

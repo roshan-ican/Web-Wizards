@@ -10,19 +10,16 @@ import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles.js";
 const data = [
   {
     number: 50,
-    text: "Designed and Developed 50+ frontend & Backend Applications utilizing React.js, Node.js and Python",
+    text: "Designed and Developed 50+ frontend & Backend Applications utilizing React.js, Node.js and PHP",
   },
+ 
   {
     number: 2,
-    text: "Worked with Agile team across nations and have Full stack react native app on Playstore",
-  },
-  {
-    number: 3,
-    text: "Along with code, I have experience with Digital Marketing and currently working with 3 clients",
+    text: "We have experience with Digital Marketing, SEO, E-commerce & Admin Applications.",
   },
   {
     number: 100,
-    text: "Have More than 100 Graphic Designing projects, Knows How to do Videography, Photography and Motion Graphics",
+    text: "Have More than 100 Graphic Designing projects,We Know, How to do Videography, Photography and Photoshop",
   },
 ];
 
@@ -39,5 +36,7 @@ const Acomplishments = () => (
     </Boxes>
   </Section>
 );
+
+
 
 export default Acomplishments;
